@@ -1,6 +1,4 @@
-🤖 Simple Q&A Chatbot with LangChain & Ollama (Phi-3)
-
-🔗 Live Demo on Streamlit
+## Simple Q&A Chatbot with LangChain & Ollama (Phi-3)
 
 📌 Project Overview
 This project is a functional Large Language Model (LLM) application built using LangChain and Streamlit. It leverages Ollama to run lightweight, open-source models (like Phi-3) locally. This setup provides a private, secure, and cost-effective way to interact with AI without relying on cloud-based APIs.
