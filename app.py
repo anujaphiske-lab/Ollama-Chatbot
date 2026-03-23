@@ -29,6 +29,9 @@ def generate_response(question, engine, temperature):
     answer=chain.invoke({'question':question})
     return answer
 
+st.title("Simple Q&A chatbot ")
+st.secrets["LANGCHAIN_API_KEY"]
+
 ## Drop down to select various LLM Models
 engine = st.sidebar.selectbox("Select a Model", ["phi3"])
 
